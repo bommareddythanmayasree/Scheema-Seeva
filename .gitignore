@@ -12,6 +12,10 @@ ENV/
 dist/
 build/
 
+# Allow committing the bundled frontend for single-service deploys
+!backend/build/
+!backend/build/**
+
 # Node
 node_modules/
 npm-debug.log*
