@@ -310,8 +310,8 @@ This project is open source under the **MIT License**.
 **Your Name** — replace with your name, LinkedIn, and email.
 
 ```text
-GitHub:  https://github.com/<your-username>
-LinkedIn: https://linkedin.com/in/<your-profile>
+GitHub:  https://github.com/bommareddythanmayasree
+LinkedIn:https://www.linkedin.com/in/thanmaya-sree-bommareddy-947a96308/
 ```
 
 If you found this useful, consider starring the repository.
