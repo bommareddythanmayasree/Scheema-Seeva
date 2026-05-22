@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8000/api';
+// Relative /api works on Render (same origin) and in dev (Vite proxy → localhost:8000)
+const API_BASE_URL = import.meta.env.VITE_API_URL || '/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
@@ -28,7 +29,7 @@ export const checkEligibility = async (userData) => {
         throw { detail: JSON.stringify(errorData) };
       }
     } else if (error.request) {
-      throw { detail: 'Unable to connect to server. Please make sure the backend is running on http://localhost:8000' };
+      throw { detail: 'Unable to connect to server. Please make sure the backend is running.' };
     } else {
       throw { detail: error.message || 'An unexpected error occurred' };
     }
