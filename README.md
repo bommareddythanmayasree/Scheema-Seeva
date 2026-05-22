@@ -2,12 +2,33 @@
 
 **A full-stack government welfare scheme eligibility platform for Indian citizens.**
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-scheme--seeva.onrender.com-22c55e?style=for-the-badge)](https://scheme-seeva.onrender.com)
+
+**Live app:** [https://scheme-seeva.onrender.com](https://scheme-seeva.onrender.com)
+
 SchemeSeva helps users discover which central and state government schemes they may qualify for—based on age, income, occupation, gender, and state—and routes them to official application portals. The project demonstrates end-to-end product thinking: a rule-based matching engine, a REST API with validation, and a responsive React frontend.
+
+---
+
+## Preview
+
+### Home — eligibility checker
+
+![SchemeSeva home page](docs/images/home.png)
+
+### All schemes catalog
+
+![SchemeSeva schemes page](docs/images/schemes.png)
+
+### About
+
+![SchemeSeva about page](docs/images/about.png)
 
 ---
 
 ## Table of Contents
 
+- [Preview](#preview)
 - [Problem & Solution](#problem--solution)
 - [Key Features](#key-features)
 - [Tech Stack](#tech-stack)
@@ -264,7 +285,7 @@ This repo supports **single-service deployment** (e.g. on Render):
 
 FastAPI serves the React app at `/` and API routes under `/api`. The production build is tracked in git (see `.gitignore` exceptions for `backend/build/`).
 
-> **Tip for recruiters:** Add your live demo URL here after deploy, e.g. `https://your-app.onrender.com`
+**Live deployment (Render):** [https://scheme-seeva.onrender.com](https://scheme-seeva.onrender.com)
 
 ---
 
@@ -307,11 +328,10 @@ This project is open source under the **MIT License**.
 
 ## Author
 
-**Your Name** — replace with your name, LinkedIn, and email.
+**Thanmaya Sree Bommareddy**
 
-```text
-GitHub:  https://github.com/bommareddythanmayasree
-LinkedIn:https://www.linkedin.com/in/thanmaya-sree-bommareddy-947a96308/
-```
+- **Live demo:** [https://scheme-seeva.onrender.com](https://scheme-seeva.onrender.com)
+- **GitHub:** [github.com/bommareddythanmayasree](https://github.com/bommareddythanmayasree)
+- **LinkedIn:** [thanmaya-sree-bommareddy](https://www.linkedin.com/in/thanmaya-sree-bommareddy-947a96308/)
 
 If you found this useful, consider starring the repository.
