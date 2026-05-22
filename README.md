@@ -16,13 +16,6 @@ SchemeSeva helps users discover which central and state government schemes they 
 
 ![SchemeSeva home page](docs/images/home.png)
 
-### Data entry — eligibility form
-
-![SchemeSeva eligibility form with sample data](docs/images/data-entry.png)
-
-### Results — matched schemes
-
-![SchemeSeva eligibility results page](docs/images/results.png)
 
 ### All schemes catalog
 
@@ -31,6 +24,14 @@ SchemeSeva helps users discover which central and state government schemes they 
 ### About
 
 ![SchemeSeva about page](docs/images/about.png)
+
+### Data entry — eligibility form
+
+![SchemeSeva eligibility form with sample data](docs/images/data-entry.png)
+
+### Results — matched schemes
+
+![SchemeSeva eligibility results page](docs/images/results.png)
 
 ---
 
