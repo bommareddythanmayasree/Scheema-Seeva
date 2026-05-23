@@ -6,7 +6,7 @@
 
 **Live app:** [https://scheme-seeva.onrender.com](https://scheme-seeva.onrender.com)
 
-SchemeSeva helps users discover which central and state government schemes they may qualify for—based on age, income, occupation, gender, and state—and routes them to official application portals. The project demonstrates end-to-end product thinking: a rule-based matching engine, a REST API with validation, and a responsive React frontend.
+SchemeSeva helps users discover which central and state government schemes they may qualify for based on age, income, occupation, gender, and state and routes them to official application portals. The project demonstrates end-to-end product thinking: a rule-based matching engine, a REST API with validation, and a responsive React frontend.
 
 ---
 
